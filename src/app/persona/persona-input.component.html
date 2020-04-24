@@ -1,0 +1,11 @@
+
+<label for="">Nombre</label>
+<input type="text" id="Nombre" #nombreAlumnoEl>
+<button (click)="onAgregarAlumno(nombreAlumnoEl.value)">Agregar</button>
+
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" [(ngModel)]="alumnoInput">
+<button (click)="onCrearPersona()">Enviar</button>
+<!-- <input type="text" id="name" #personNameEl> -->
+<!-- <button (click)="onCrearPersona(personNameEl.value)">Enviar</button> -->
+
